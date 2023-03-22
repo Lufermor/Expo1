@@ -1,0 +1,32 @@
+@api = http://localhost:3000/tasks
+
+GET {{api}}
+
+###
+GET {{api}}/9
+
+###
+GET {{api}}/count
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "usuario_id": "usuario_prueba",
+    "title": "Circuitos",
+    "description": "Leer capítulo 1"
+}
+
+###
+DELETE {{api}}/7
+
+###
+PUT {{api}}/8
+Content-Type: application/json
+
+{
+    "usuario_id": "usuario_prueba",
+    "title": "Inglés",
+    "description": "Crear glossario"
+}
