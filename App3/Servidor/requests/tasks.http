@@ -14,8 +14,8 @@ Content-Type: application/json
 
 {
     "usuario_id": "usuario_prueba",
-    "title": "Circuitos",
-    "description": "Leer capítulo 1"
+    "title": "Eagle",
+    "description": "Diseñar primer circuito"
 }
 
 ###
